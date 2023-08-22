@@ -1,0 +1,37 @@
+*{
+  padding: 0px 30px;
+  /*color: coral;*/
+  transition: 0.3s all ease-in-out;
+  backdrop-filter: blur(6px) ;
+}
+
+body{
+  padding: 80px 110px;
+  /*background: url("https://i.pinimg.com/originals/db/58/30/db5830af6f54773348534423b09a19ce.png");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #00001f;
+  background-attachment: fixed;
+  border-radius: 5px;
+}
+
+.app-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 60px 1fr;
+  border-radius: 5px;
+  gap: 5px;
+  grid-template-areas:
+      'h h'
+      'n c'
+;
+}
+
+
+
+
+.icon{
+  padding:0 5px;
+  color: coral;
+  font-size: 20px;
+}

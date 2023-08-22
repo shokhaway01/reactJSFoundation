@@ -1,0 +1,21 @@
+.content{
+    grid-area: c;
+    background: white;
+    color: black;
+    font-family: Calibri;
+    padding: 15px;
+    position: relative;
+}
+
+.content img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: white;
+    border: 3px solid chocolate;
+    border-radius: 10px;
+    object-position: center;
+    box-shadow: 0 0 10px coral;
+}
